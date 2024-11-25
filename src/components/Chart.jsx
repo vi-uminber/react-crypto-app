@@ -7,7 +7,7 @@ ChartJS.register(
 );
 
 const Chart = ({arr=[],currencySymbol,days}) => {
-
+    console.log("done")
     const Prices=[];
     const date=[];
 
