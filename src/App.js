@@ -23,6 +23,7 @@ function App() {
 
 function MatomoTracker() {
   const location = useLocation();
+  console.log(location)
 
   useEffect(() => {
     if (window._paq) {
